@@ -1,18 +1,28 @@
+/* 
+Douglas Stewart - WDD130
+CSS file for My Homepage
+*/
+
+
+/* Navigation */
 nav {
     background-color: steelblue;
     padding: 10px;
 }
 
+/* Navigation Hyperlinks */
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
 
+/* Header 1 */
 h1 {
     color: steelblue;
 }
 
+/* Main Image */
 main img {
     width: 150px;
     height: auto;
@@ -21,14 +31,17 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
+/* Paragraph */
 p {
     padding: 0px;
 }
 
+/* Main (In Body) */
 main {
     max-width: 840px;
 }
 
+/* Aside (In Body) */
 aside {
     width: 20rem;
     margin: 1rem;
@@ -39,11 +52,13 @@ aside {
     text-align: center;
 }
 
+/* Aside Image */
 aside img {
     width: 200px;
     height: auto;
 }
 
+/* Footer */
 footer {
     margin-top: 15px;
     border-top: 1px solid black;

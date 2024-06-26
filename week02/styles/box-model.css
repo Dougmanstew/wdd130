@@ -1,3 +1,9 @@
+/* 
+Douglas Stewart - WDD130
+CSS file for My Box Model
+*/
+
+/* Callout (Defined in Body) */
 .callout {
 	max-width: 400px;
     margin: 10px;
@@ -7,6 +13,7 @@
     color: white;
 }
 
+/* Callout Image */
 .callout img {
 	float: right;
     margin: 15px 0 15px 15px;
@@ -17,10 +24,12 @@
     height: auto;
 }
 
+/* Blockquote */
 blockquote {
 	margin: 0;
 }
 
+/* Citation */
 cite {
 	display: block;
     border-top: 2px dotted white;
