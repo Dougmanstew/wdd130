@@ -3,64 +3,75 @@ Douglas Stewart - WDD130
 CSS file for My Homepage
 */
 
-
-/* Navigation */
-nav {
-    background-color: steelblue;
-    padding: 10px;
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Navigation Hyperlinks */
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+}
+
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
-/* Header 1 */
 h1 {
     color: steelblue;
+    padding: 1rem;
 }
 
-/* Main Image */
+main {
+    max-width: 840px;
+}
+
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 
-/* Paragraph */
 p {
-    padding: 0px;
+    padding: 1rem;
 }
 
-/* Main (In Body) */
-main {
-    max-width: 840px;
-}
-
-/* Aside (In Body) */
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 2px solid black;
-    padding: 1rem;
-    background-color: #223B55;
-    color: white;
     text-align: center;
+    position: relative;
 }
 
-/* Aside Image */
 aside img {
     width: 200px;
     height: auto;
 }
 
-/* Footer */
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 95px;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
 }
