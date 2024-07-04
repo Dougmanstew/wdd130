@@ -44,31 +44,34 @@ body {
     --nav-hover-background-color: #A288A6;
 }
 
-/* Headers */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-/* Header */
 header {
-    padding: 20px;
+    padding: 1.2rem;
     background-color: var(--accent1-color);
 }
 
-/* Paragraphs */
-p {
-    padding: 20px;
+header img {
+    width: 175px;
+    height: auto;
 }
 
-/* Navigation */
+p {
+    padding: 1.2rem;
+}
+
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: flex;
+    justify-content: space-around;
+    grid-column: 2/5;
+   
 }
 
-/* Navigation Hyperlinks */
 nav a {
     display: block;
     color: var(--nav-link-color);
@@ -76,15 +79,33 @@ nav a {
     padding: 1rem;
 }
 
-/* Navigation Used */
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
-/* Navigation Hovering */
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+}
+
+footer nav {
+    margin-left: 18rem;
+}
+
+footer p {
+    color: var(--accent2-color);
+    margin-top: 1rem;
+}
+
+footer img {
+    width: 50px;
 }
 
 /* Class Selectors */
@@ -95,10 +116,10 @@ nav a:hover {
 .hero h1 {    
     position: absolute;
     color: var(--accent2-color);
-    top: 60px;
-    left: 140px;
+    top: 70px;
+    margin-left: 1.2rem;
     background-color: var(--nav-background-color);
-    padding: 1rem 2rem;
+    padding: .5rem 18rem .5rem 1.2rem;
 }
 
 .hero img {
@@ -110,19 +131,81 @@ nav a:hover {
 .hero article {
     position: absolute;
     background-color: rgba(49, 13, 32, .8);
-    opacity: 1;
     top: 175px;
-    margin: 0 3rem 0 3rem;
+    margin: 0 1rem 0 1rem;
 }
 
 .hero article img {
     float: right;
     width: 250px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid #B49A67;
+    box-shadow: 0 0 20px #A288A6;
     margin: 1rem 1rem 1rem 1rem;
 }
 
 .hero article p {
     color: var(--accent2-color);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.history {
+    position: relative;
+    display: flex;
+    margin-top: 1rem;
+    background-color: var(--accent1-color);
+}
+
+.history h2 {
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: .5rem;
+    color: var(--accent2-color);
+}
+
+.history img {
+    width: 175px;
+    height: auto;
+    margin: 3rem 1rem 1rem 1rem;
+    border: 2px solid #B49A67;
+    box-shadow: 0 0 15px #A288A6;
+}
+
+.history p {
+    color: var(--accent2-color);
+    margin-top: 1.5rem;
+}
+
+.adventure {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: var(--accent1-color);
+}
+
+.adventure h2 {
+    position: absolute;
+    margin-top: .5rem;
+    color: var(--accent2-color);
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+    margin: 3rem 1rem 0 1rem;
+    border: 2px solid #B49A67;
+    box-shadow: 0 0 10px #A288A6;
+}
+
+.adventure figcaption {
+    color: var(--accent2-color);
+    font-size: smaller;
+    margin-bottom: 1rem;
+    text-align: center;
 }
