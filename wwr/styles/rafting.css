@@ -22,8 +22,9 @@ CSS file for Rafting About Us Page
 /* Body */
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    width: 960px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 /* Root */
@@ -95,8 +96,9 @@ nav a:hover {
     position: absolute;
     color: var(--accent2-color);
     top: 60px;
-    left: 170px;
+    left: 140px;
     background-color: var(--nav-background-color);
+    padding: 1rem 2rem;
 }
 
 .hero img {
