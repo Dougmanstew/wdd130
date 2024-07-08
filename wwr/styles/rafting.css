@@ -90,13 +90,9 @@ nav a:hover {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 1rem;
     background-color: var(--primary-color);
-}
-
-footer nav {
-    margin-left: 18rem;
 }
 
 footer p {
