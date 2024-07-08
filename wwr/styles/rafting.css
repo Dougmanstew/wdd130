@@ -148,6 +148,49 @@ footer img {
     color: var(--accent2-color);
 }
 
+.contact {
+    position: relative;
+}
+
+.contact h1 {    
+    position: absolute;
+    color: var(--accent2-color);
+    top: 70px;
+    margin-left: 1.2rem;
+    background-color: var(--nav-background-color);
+    padding: .5rem 18rem .5rem 1.2rem;
+}
+
+.contact img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.contact article {
+    position: absolute;
+    background-color: rgba(49, 13, 32, .8);
+    top: 175px;
+    margin-left: 1.2rem;
+    padding: 0 7.5rem 0 1.2rem;
+}
+
+.contact article h3 {
+    color: var(--accent2-color);
+    padding: 1rem 0 0 0;
+}
+.contact article p {
+    color: var(--accent2-color);
+    font-size: larger;
+    padding: .5rem 0 1rem 0;
+}
+
+.contact iframe {
+    position: absolute;
+    top: 70px;
+    left: 540px;
+
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -181,6 +224,34 @@ footer img {
     margin-top: 1.5rem;
 }
 
+.staff {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: var(--accent1-color);
+}
+
+.staff h2 {
+    position: absolute;
+    margin-top: .5rem;
+    color: var(--accent2-color);
+}
+
+.staff img {
+    width: 250px;
+    height: auto;
+    margin: 4rem 1rem .5rem 1rem;
+    border: 2px solid #B49A67;
+    box-shadow: 0 0 15px #A288A6;
+}
+
+.staff figcaption {
+    color: var(--accent2-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 .adventure {
     position: relative;
     display: flex;
@@ -208,4 +279,95 @@ footer img {
     font-size: smaller;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: var(--accent1-color);
+}
+
+form {
+    width: 600px;
+    padding: 1.2rem;
+    margin: 4rem 0 1.2rem 1.2rem;
+    border: 2px solid black;
+    border-radius: .7rem;
+    background-color: var(--accent3-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: .5rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 1.2rem;
+}
+
+legend {
+    padding: .5rem;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+label{
+    text-align: left;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 4fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.form h2 {
+    position: absolute;
+    margin-top: 1rem;
+    color: var(--accent2-color);
 }
