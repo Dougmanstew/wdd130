@@ -151,6 +151,52 @@ footer img {
     color: var(--accent2-color);
 }
 
+.trips {
+    position: relative;
+}
+
+.trips h1 {
+    position: absolute;
+    color: var(--accent2-color);
+    top: 50px;
+    padding: 1rem;
+    background-color: var(--nav-background-color);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.trips img {
+    width: 100%;
+    height: auto;
+    margin-top: 1.2rem;
+}
+
+.trips button {
+    position: absolute;
+    display: flex;
+    top: 250px;
+    justify-content: center;
+    width: 70%;
+    padding: .5rem;
+    margin: 0 8.5rem;
+    border: 2px solid #B49A67;
+    box-shadow: 0 0 20px #A288A6;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--paragraph-font);
+}
+
+.trips a {
+    text-decoration: none;
+}
+
+.trips a:visited {
+    color: var(--accent2-color);
+}
+
 .hero {
     position: relative;
 }
@@ -447,3 +493,96 @@ button:hover {
     margin-top: 1rem;
     color: var(--accent2-color);
 }
+
+table {
+    margin-top: 1rem;
+    width: 920px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+thead {
+    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+  }
+  
+th, td {
+    border: 1px solid black;
+    padding: 8px 10px;
+    text-align: center;
+  }
+  
+tbody > tr:nth-of-type(even) {
+    background-color: var(--accent3-color);
+  }
+
+.photo-left {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+}
+
+.photo-left h2 {
+    position: absolute;
+    grid-column: 2/4;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: var(--accent2-color);
+}
+
+.photo-left img {
+    width: 350px;
+    height: auto;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 2px solid #B49A67;
+    box-shadow: 0 0 15px #A288A6;
+}
+
+.photo-left p {
+    grid-column: 2/4;
+    margin: 2.5rem 1rem 1rem 1rem;
+}
+
+.photo-right {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+}
+
+.photo-right h2 {
+    position: absolute;
+    grid-column: 1/3;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: var(--accent2-color);
+}
+
+.photo-right img {
+    grid-column: 3/4;
+    width: 350px;
+    height: auto;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 2px solid #B49A67;
+    box-shadow: 0 0 15px #A288A6;
+}
+
+.photo-right p {
+    position: absolute;
+    grid-column: 1/3;
+    margin: 2.5rem 1rem 1rem 1rem;
+}  
